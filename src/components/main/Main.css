@@ -1,0 +1,120 @@
+#app {
+    height: 100%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.cart {
+    width: 300px;
+    height: 500px;
+    padding: 0;
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    /* background-color: antiquewhite;s */
+}
+.cart:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.card_img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.stars {
+    color: gold;
+    margin-top: 2px;
+}
+
+.star {
+    font-size: 18px;
+    padding: 2px;
+    display: flex;
+    gap: 5px;
+    color: gray;
+}
+
+.card_p {
+    font-size: 21px;
+    font-weight: 200;
+}
+
+del {
+    color: gray;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+h4 {
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: 200;
+    width: 140px;
+}
+
+.buy {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* background-color: rgb(193, 189, 189); */
+    background-color: transparent;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -70px;
+    padding: 5px;
+    border: 1px solid rgb(174, 174, 174);
+}
+.buy:hover{
+    background-color: black;
+    border: transparent;
+    color: white;
+}

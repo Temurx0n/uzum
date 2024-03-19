@@ -1,0 +1,29 @@
+footer{
+    display: flex;
+    gap: 200px;
+    margin-top: 20px;
+}
+.apple,.play{
+    width: 20px;
+}
+.span{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.mess{
+    display: flex;
+    gap: 100px;
+}
+.span2{
+   
+    margin-top: 5px;
+    margin-left: -85px;
+}
+.messengers{
+    width: 30px;
+}
+.messengers_group{
+    display: flex;
+    gap: 5px;
+}
